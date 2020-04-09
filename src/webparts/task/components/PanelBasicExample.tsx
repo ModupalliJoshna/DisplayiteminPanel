@@ -4,7 +4,7 @@ import { Panel ,PanelType} from 'office-ui-fabric-react/lib/Panel';
 import { useConstCallback } from '@uifabric/react-hooks';
 import pnp from 'sp-pnp-js';
 import * as $ from "jquery";
-import {Display} from './duplicate';
+import {Display} from './DisplayItem';
 
 export const PanelBasicExample: React.FunctionComponent = () => {
   const [isOpen, setIsOpen] = React.useState(false);
