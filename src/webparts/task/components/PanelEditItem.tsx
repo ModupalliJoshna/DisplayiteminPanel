@@ -15,9 +15,6 @@ import {PanelBasicExample} from './PanelBasicExample';
 import {dismissPanel} from './Paneledit';
 
 
-//import {SPGet, SPDelete, SPPost, SPUpdate} from "./SPOHelper";
-
-
 var a ;
 var b;
 var c;
