@@ -4,9 +4,7 @@ import { Panel ,PanelType} from 'office-ui-fabric-react/lib/Panel';
 import { useConstCallback } from '@uifabric/react-hooks';
 import pnp from 'sp-pnp-js';
 import * as $ from "jquery";
-import {GetSpListItemsWebPart} from './GetSpListItemsWebPart';
-import {ReactGetItems} from './ReactGetItemsWebPart ';
-import {Duplicate} from './duplicate';
+import {Display} from './duplicate';
 
 export const PanelBasicExample: React.FunctionComponent = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -28,7 +26,7 @@ export const PanelBasicExample: React.FunctionComponent = () => {
       >
         
    
-    <Duplicate  description="hnkk" siteurl="https://sachagroup.sharepoint.com/sites/CInterns" />
+    <Display  description="hnkk" siteurl="https://sachagroup.sharepoint.com/sites/CInterns" />
 
     <DefaultButton text="Close" onClick={dismissPanel}  />
       </Panel>

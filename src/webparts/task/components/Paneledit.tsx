@@ -4,9 +4,7 @@ import { Panel ,PanelType} from 'office-ui-fabric-react/lib/Panel';
 import { useConstCallback } from '@uifabric/react-hooks';
 import pnp from 'sp-pnp-js';
 import * as $ from "jquery";
-import {GetSpListItemsWebPart} from './GetSpListItemsWebPart';
-import {ReactGetItems} from './ReactGetItemsWebPart ';
-import {Duplicate} from './duplicate';
+import {Display} from './duplicate';
 import {EditItem} from './PanelEditItem'
 
  export var dismissPanel;

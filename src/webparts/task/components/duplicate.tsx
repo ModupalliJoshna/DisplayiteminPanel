@@ -19,7 +19,7 @@ export interface IReactGetItemsState{
         }]    
 }    
 var Itemid = 27;
-export  class Duplicate extends React.Component<IReactGetItemsProps, IReactGetItemsState> {  
+export  class Display extends React.Component<IReactGetItemsProps, IReactGetItemsState> {  
   
   public constructor(props: IReactGetItemsProps, state: IReactGetItemsState){    
     super(props);    

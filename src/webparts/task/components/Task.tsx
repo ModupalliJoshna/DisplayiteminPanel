@@ -2,7 +2,6 @@ import * as React from 'react';
 import styles from './Task.module.scss';
 import { ITaskProps } from './ITaskProps';
 import { escape } from '@microsoft/sp-lodash-subset';
-import {ButtonDefaultExample} from './ButtonDefaultExample';
 import {PanelBasicExample} from './PanelBasicExample';
 import{Paneledit} from './Paneledit';
 
